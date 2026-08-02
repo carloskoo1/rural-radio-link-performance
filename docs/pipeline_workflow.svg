@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+<defs>
+<style>
+.title{font:700 34px Arial;fill:#172033}.sub{font:400 18px Arial;fill:#465166}
+.box{fill:#fff;stroke:#5c6f91;stroke-width:2}.alt{fill:#f6f8fc;stroke:#5c6f91;stroke-width:2}
+.t1{font:700 19px Arial;fill:#172033;text-anchor:middle}.t2{font:400 15px Arial;fill:#465166;text-anchor:middle}
+.a{stroke:#5c6f91;stroke-width:3;fill:none;marker-end:url(#m)}
+</style>
+<marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5c6f91"/></marker>
+</defs>
+<rect width="1200" height="1400" fill="#fff"/>
+<text x="600" y="55" class="title">Flujo reproducible y trazabilidad metodológica</text>
+<text x="600" y="88" class="sub">Desde la telemetría hasta los productos del Capítulo IV</text>
+
+<g transform="translate(210,120)"><rect class="alt" width="780" height="80" rx="14"/><text class="t1" x="390" y="32">Datos de entrada</text><text class="t2" x="390" y="58">Telemetría Cambium ePMP, cnMaestro y ERA5-Land</text></g>
+<path class="a" d="M600 200 L600 235"/>
+<g transform="translate(210,240)"><rect class="box" width="780" height="80" rx="14"/><text class="t1" x="390" y="32">m01_io.py</text><text class="t2" x="390" y="58">Lectura e integración</text></g>
+<path class="a" d="M600 320 L600 355"/>
+<g transform="translate(210,360)"><rect class="alt" width="780" height="80" rx="14"/><text class="t1" x="390" y="32">m02_validacion.py</text><text class="t2" x="390" y="58">Depuración y control de calidad</text></g>
+<path class="a" d="M600 440 L600 475"/>
+<g transform="translate(210,480)"><rect class="box" width="780" height="80" rx="14"/><text class="t1" x="390" y="32">m03_normalidad.py</text><text class="t2" x="390" y="58">Shapiro-Wilk</text></g>
+<path class="a" d="M600 560 L600 595"/>
+<g transform="translate(210,600)"><rect class="alt" width="780" height="95" rx="14"/><text class="t1" x="390" y="30">m04_inferencial.py</text><text class="t2" x="390" y="56">Kruskal-Wallis · Dunn-Holm · epsilon cuadrado</text><text class="t2" x="390" y="79">Comparación global entre escenarios</text></g>
+<path class="a" d="M600 695 L600 730"/>
+
+<g transform="translate(80,735)">
+<rect class="box" x="0" y="0" width="500" height="100" rx="14"/><text class="t1" x="250" y="30">m05_descriptivos.py</text><text class="t2" x="250" y="58">Media, mediana, DE, RIC y CV</text>
+<rect class="box" x="540" y="0" width="500" height="100" rx="14"/><text class="t1" x="790" y="30">m06_franjas.py</text><text class="t2" x="790" y="58">Mann-Whitney · Holm · delta de Cliff</text>
+</g>
+<path class="a" d="M330 835 L330 880"/><path class="a" d="M870 835 L870 880"/>
+
+<g transform="translate(80,885)">
+<rect class="alt" x="0" y="0" width="500" height="100" rx="14"/><text class="t1" x="250" y="30">m07_precipitacion.py</text><text class="t2" x="250" y="58">Diagnóstico climático y Spearman</text>
+<rect class="alt" x="540" y="0" width="500" height="100" rx="14"/><text class="t1" x="790" y="30">m08_estabilidad.py</text><text class="t2" x="790" y="58">DE, RIC, CV e índice compuesto</text>
+</g>
+<path class="a" d="M330 985 L330 1030"/><path class="a" d="M870 985 L870 1030"/><path class="a" d="M330 1030 L600 1030"/><path class="a" d="M870 1030 L600 1030"/>
+
+<g transform="translate(210,1040)"><rect class="box" width="780" height="80" rx="14"/><text class="t1" x="390" y="32">m09_objetivos.py</text><text class="t2" x="390" y="58">Integración por objetivos e hipótesis</text></g>
+<path class="a" d="M600 1120 L600 1155"/>
+
+<g transform="translate(80,1160)">
+<rect class="alt" x="0" y="0" width="320" height="95" rx="14"/><text class="t1" x="160" y="30">m10_figuras.py</text><text class="t2" x="160" y="58">Figuras</text>
+<rect class="alt" x="360" y="0" width="320" height="95" rx="14"/><text class="t1" x="520" y="30">m11_word.py</text><text class="t2" x="520" y="58">Word</text>
+<rect class="alt" x="720" y="0" width="320" height="95" rx="14"/><text class="t1" x="880" y="30">m12_excel.py</text><text class="t2" x="880" y="58">Excel</text>
+</g>
+<path class="a" d="M240 1255 L240 1290"/><path class="a" d="M600 1255 L600 1290"/><path class="a" d="M960 1255 L960 1290"/>
+<text x="600" y="1340" class="t1">m13_verificacion.py · Control final de consistencia</text>
+<text x="600" y="1380" class="sub" text-anchor="middle">Tablas · Figuras · Word · Excel · Anexos · v1.0.0</text>
+</svg>
