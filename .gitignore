@@ -1,29 +1,52 @@
-# Python
+﻿# Python
 __pycache__/
-*.pyc
-
-# Entornos
-.env
+*.py[cod]
 .venv/
 venv/
 
-# Logs
-*.log
-
-# MacOS
+# Sistema
 .DS_Store
-
-# Windows
 Thumbs.db
-Desktop.ini
+desktop.ini
 
-# VSCode
-.vscode/
+# Credenciales y configuración privada
+.env
+.env.*
+*.pem
+*.key
+config_private.*
+secrets/
 
-# Jupyter
-.ipynb_checkpoints/
+# Datos crudos y climáticos
+eber_burga/
+era5land_eber/
+data/climate/
+data/raw/*
+!data/raw/.gitkeep
 
-# Archivos temporales ERA5
-data/raw/**/*.zip
-data/climate/era5land_eber/*.original_zip
-data/climate/era5land_eber/*.original_gz
+# Salidas regenerables
+outputs/figures/*
+outputs/reportes/*
+outputs/tables/*
+outputs/logs/*
+!outputs/figures/.gitkeep
+!outputs/reportes/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/logs/.gitkeep
+
+# Figuras y reportes intermedios
+figuras_estabilidad/
+
+# Archivos temporales y respaldos
+*.bak
+*.tmp
+~$*.docx
+~$*.xlsx
+*.zip
+*.tar.gz
+*.original_zip
+
+# Documentos de tesis no destinados al repositorio
+docs/Tesis.pdf
+docs/Metodología.pdf
+docs/Matriz de Consistencia*

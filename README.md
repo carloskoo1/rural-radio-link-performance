@@ -1,68 +1,84 @@
-# Radioenlace Eber Burga — Dataset y análisis reproducible
+# Evaluación experimental del desempeño técnico de un radioenlace rural
 
-Repositorio para consolidar, procesar y analizar registros de telemetría de un radioenlace punto a punto evaluado bajo seis escenarios experimentales.
+Repositorio científico asociado a una investigación sobre la relación entre la configuración técnica de un radioenlace punto a punto y su desempeño bajo condiciones reales de operación en un entorno rural altoandino de Cajamarca, Perú.
 
-## Escenarios evaluados
+## Objetivo general
 
-| Escenario | Frecuencia | Ancho de canal | Fuente |
-|---|---:|---:|---|
-| E0 | 5800 MHz | 20 MHz | Registro local ePMP |
-| E1 | 5660 MHz | 40 MHz | cnMaestro |
-| E2 | 5660 MHz | 80 MHz | cnMaestro |
-| E3 | 5730 MHz | 40 MHz | cnMaestro |
-| E4 | 5730 MHz | 80 MHz | cnMaestro |
-| E5 | 5805 MHz | 40 MHz | cnMaestro |
+Evaluar la asociación entre la configuración técnica del radioenlace y su desempeño técnico bajo condiciones reales de operación.
 
-## Estructura
+## Objetivos específicos
+
+1. Comparar el desempeño técnico entre los escenarios E0–E5.
+2. Comparar el desempeño entre las franjas 20:00–22:00 y 01:00–03:00.
+3. Analizar la asociación entre precipitación horaria y métricas técnicas.
+4. Identificar la configuración con mayor estabilidad operativa.
+
+## Escenarios
+
+| Escenario | Frecuencia | Ancho de canal |
+|---|---:|---:|
+| E0 | 5800 MHz | 20 MHz |
+| E1 | 5660 MHz | 40 MHz |
+| E2 | 5660 MHz | 80 MHz |
+| E3 | 5730 MHz | 40 MHz |
+| E4 | 5730 MHz | 80 MHz |
+| E5 | 5805 MHz | 40 MHz |
+
+## Métricas
+
+RSSI DL, SNR DL, MCS DL, Throughput DL observado, DE, RIC, CV, índice compuesto de estabilidad y precipitación horaria.
+
+## Flujo
 
 ```text
-radioenlace-eber-burga-github/
-├── config.json
-├── requirements.txt
-├── README.md
-├── data/
-│   ├── raw/E0 ... raw/E5
-│   ├── climate/era5land_eber/
-│   └── processed/
-├── outputs/figures/
-├── outputs/tables/
-└── scripts/
+Telemetría + cnMaestro + ERA5-Land
+                ↓
+Depuración y homologación
+                ↓
+Sincronización temporal
+                ↓
+Dataset consolidado
+                ↓
+Shapiro–Wilk
+                ↓
+Kruskal–Wallis + ε²
+                ↓
+Dunn + Holm
+                ↓
+Mann–Whitney + Holm + delta de Cliff
+                ↓
+Spearman
+                ↓
+Índice compuesto de estabilidad
+                ↓
+CSV + figuras + Word + Excel
 ```
 
 ## Instalación
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-## Flujo recomendado
+## Ejecución en Windows
 
-1. Colocar los CSV crudos de E0–E5 dentro de `data/raw/E0` ... `data/raw/E5`.
-2. Colocar o descargar los NetCDF ERA5-Land en `data/climate/era5land_eber`.
-3. Ejecutar:
-
-```bash
-python scripts/run_all.py
+```bat
+ejecutar_pipeline_RC5.bat
 ```
 
-## Productos generados
+Verifique que el nombre coincida con el lanzador definitivo del repositorio.
 
-```text
-data/processed/dataset_escenarios_full_day.csv
-data/processed/resumen_escenarios.csv
-data/processed/dataset_radio_clima.csv
-outputs/tables/*.csv
-outputs/figures/*.png
-outputs/figures/*.pdf
-```
+## Documentación
 
-## Nota metodológica
+- `docs/metodologia.md`
+- `docs/pipeline_estadistico.md`
+- `docs/estructura_datos.md`
+- `docs/reproducibilidad.md`
 
-El throughput registrado representa tráfico efectivamente observado durante el monitoreo y no la capacidad máxima teórica del enlace. Para E0, el formato local no contiene throughput comparable con cnMaestro.
+## Seguridad
 
-## Cómo citar este repositorio
+No publique credenciales, tokens, claves, direcciones IP de administración ni archivos con información personal.
 
-Koo Labrín, C. J. (2026).
-Dataset y scripts reproducibles para el análisis técnico de un radioenlace punto a punto bajo configuraciones espectrales.
-GitHub.
-https://github.com/carloskoo/radioenlace-eber-burga
+## Licencia
+
+Código bajo licencia MIT.
