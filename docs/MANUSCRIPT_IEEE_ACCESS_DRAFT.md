@@ -317,3 +317,5 @@ The manuscript drafting process used OpenAI ChatGPT for language organization, s
 
 
 
+
+[10] J. Dong and W.-J. Kim, “Experimental Analysis and Implementation of a Multiscale Wireless/Wired Networked Control System,” International Journal of Control, Automation and Systems, vol. 12, pp. 102–110, 2014, doi: 10.1007/s12555-013-9156-2.
