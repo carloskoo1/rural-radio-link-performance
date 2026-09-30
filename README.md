@@ -131,6 +131,7 @@ El repositorio reproduce el procesamiento y el análisis a partir de los archivo
 
 `v1.0.0`
 
-https://github.com/carloskoo/radioenlace-eber-burga/tree/v1.0.0
+https://github.com/carloskoo1/rural-radio-link-performance/tree/v1.0.0
 <!-- TRACEABILITY:END -->
+
 

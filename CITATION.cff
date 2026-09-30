@@ -1,15 +1,15 @@
-cff-version: 1.2.0
-message: "Si utiliza este repositorio, cite el software y la investigación asociada."
-title: "Evaluación experimental del desempeño técnico de un radioenlace rural"
+﻿cff-version: 1.2.0
+message: "Si utiliza este repositorio, cite el software y la investigaciÃ³n asociada."
+title: "EvaluaciÃ³n experimental del desempeÃ±o tÃ©cnico de un radioenlace rural"
 type: software
 
 authors:
-  - family-names: "Koo Labrín"
-    given-names: "Carlos Jesús"
+  - family-names: "Koo LabrÃ­n"
+    given-names: "Carlos JesÃºs"
 
 version: "1.0.0"
 date-released: "2026-08-01"
 license: "MIT"
 
-repository-code: "https://github.com/carloskoo/radioenlace-eber-burga"
-url: "https://github.com/carloskoo/radioenlace-eber-burga"
+repository-code: "https://github.com/carloskoo1/rural-radio-link-performance"
+url: "https://github.com/carloskoo1/rural-radio-link-performance"
