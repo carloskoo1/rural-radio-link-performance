@@ -1,6 +1,8 @@
-﻿# Beyond RSSI: Multimetric Temporal Stability and Multiscale Assessment of a Long-Distance Point-to-Point Wireless Link
+﻿# Beyond RSSI: Configuration-Dependent Performance and Temporal Stability in a Long-Distance Point-to-Point Wireless Link
 
-**Author list:** TO BE CONFIRMED FROM THE THESIS RECORD
+**Authors:** Eber Elí Burga Campos; Carlos Jesús Koo Labrín
+
+**Affiliation:** Universidad Nacional de Cajamarca, Facultad de Ingeniería, Escuela Profesional de Ingeniería de Sistemas, Cajamarca, Peru.
 
 ## Abstract
 
@@ -172,7 +174,7 @@ The sequential field design also means that the scenarios were observed during d
 
 ### 4.1 Configuration-dependent performance
 
-The descriptive results show measurable differences among the six radio configurations across RSSI DL, SNR DL, and MCS DL. RSSI DL means ranged from -76.668 dBm in E1 to -74.396 dBm in E2, while SNR DL means ranged from 19.936 dB in E3 to 21.678 dB in E2. Mean MCS ranged from 103.300 in E2 to 104.995 in E0. Observed throughput was available for E1-E5 and ranged from 0.588 Mb/s in E2 to 0.791 Mb/s in E4.
+The descriptive results show measurable differences among the six radio configurations across RSSI DL, SNR DL, and MCS DL. The corresponding configuration profiles are summarized in Fig. 2. RSSI DL means ranged from -76.668 dBm in E1 to -74.396 dBm in E2, while SNR DL means ranged from 19.936 dB in E3 to 21.678 dB in E2. Mean MCS ranged from 103.300 in E2 to 104.995 in E0. Observed throughput was available for E1-E5 and ranged from 0.588 Mb/s in E2 to 0.791 Mb/s in E4.
 
 The global Kruskal-Wallis analysis identified statistically significant differences among scenarios for all four analyzed metrics. RSSI DL: H = 5846.432, df = 5, p < 0.001, epsilon-squared = 0.225. SNR DL: H = 5385.396, df = 5, p < 0.001, epsilon-squared = 0.207. MCS DL: H = 4429.280, df = 5, p < 0.001, epsilon-squared = 0.171. Observed throughput DL, evaluated across E1-E5: H = 1659.254, df = 4, p < 0.001, epsilon-squared = 0.144.
 
@@ -186,13 +188,13 @@ The configuration differences were not limited to mean performance. RSSI DL stan
 
 SNR CV ranged from 2.128% in E3 to 5.081% in E4. MCS CV ranged from 0.614% in E5 to 1.747% in E2. Observed-throughput CV ranged from 49.716% in E3 to 63.839% in E2.
 
-A four-component composite stability index was calculated from normalized RSSI standard deviation, SNR CV, MCS CV, and observed-throughput CV. The index is a relative measure within the evaluated dataset. Across E1-E5, the values were E3 = 0.9120, E4 = 0.5566, E5 = 0.5446, E1 = 0.2572, and E2 = 0.2302. E0 is not directly comparable in this four-component publication index because observed throughput is unavailable.
+A four-component composite stability index was calculated from normalized RSSI standard deviation, SNR CV, MCS CV, and observed-throughput CV. The relationship between mean performance and temporal variability is illustrated in Fig. 3. The index is a relative measure within the evaluated dataset. Across E1-E5, the values were E3 = 0.9120, E4 = 0.5566, E5 = 0.5446, E1 = 0.2572, and E2 = 0.2302. E0 is not directly comparable in this four-component publication index because observed throughput is unavailable.
 
 The stability analysis provides information not captured by mean performance alone. The scenario with the largest mean throughput is not necessarily the scenario with the smallest relative variability, supporting the analysis of central tendency and stability as separate dimensions.
 
 ### 4.3 Multiscale temporal robustness
 
-MTRA evaluated whether configuration-associated differences persisted after aggregation at 15-, 30-, and 60-minute scales.
+MTRA evaluated whether configuration-associated differences persisted after aggregation at 15-, 30-, and 60-minute scales. The effect-size trajectories are shown in Fig. 4, while metric-specific variability across scales is shown in Fig. 5.
 
 At 15 minutes, epsilon-squared values were 0.424775 for RSSI, 0.348985 for SNR, 0.378132 for MCS, and 0.131903 for observed throughput. Sample sizes were 4,848, 4,848, 4,849, and 3,876, respectively; all global tests had p < 0.001.
 
@@ -292,30 +294,29 @@ The analysis artifacts are maintained in the public repository: https://github.c
 
 ## Acknowledgment
 
-The manuscript drafting process used OpenAI ChatGPT for language organization, synthesis, and editorial assistance. Quantitative results, experimental descriptions, statistical values, and repository evidence were derived from the project's versioned research artifacts and were not generated from model inference. The final authors are responsible for verification of all scientific content, citations, authorship, and submission materials.
+OpenAI ChatGPT was used for language organization, synthesis, and editorial assistance during preparation of Sections 1–7 of this manuscript [11]. AI assistance was not used to generate the quantitative results, statistical values, experimental measurements, or repository evidence. Those elements were derived from the project’s versioned research artifacts. The authors verified the scientific content, citations, authorship, and submission materials.
 
 ## References
 
-[1] K. Nguyen, M. G. Kibria, K. Ishizu, and F. Kojima, â€œPerformance Evaluation of IEEE 802.11ad in Evolving Wi-Fi Networks,â€ Wireless Communications and Mobile Computing, vol. 2019, Article ID 4089365, 2019, doi: 10.1155/2019/4089365.
+[1] K. Nguyen, M. G. Kibria, K. Ishizu, and F. Kojima, "Performance Evaluation of IEEE 802.11ad in Evolving Wi-Fi Networks," Wireless Communications and Mobile Computing, vol. 2019, Article ID 4089365, 2019, doi: 10.1155/2019/4089365.
 
-[2] L. Ahumada, R. Feick, R. A. Valenzuela, and C. Morales, â€œMeasurement and Characterization of the Temporal Behavior of Fixed Wireless Links,â€ IEEE Transactions on Vehicular Technology, vol. 54, no. 6, pp. 1913â€“1922, 2005, doi: 10.1109/TVT.2005.858189.
+[2] L. Ahumada, R. Feick, R. A. Valenzuela, and C. Morales, "Measurement and Characterization of the Temporal Behavior of Fixed Wireless Links," IEEE Transactions on Vehicular Technology, vol. 54, no. 6, pp. 1913-1922, 2005, doi: 10.1109/TVT.2005.858189.
 
-[3] R. Feick, R. A. Valenzuela, and L. Ahumada, â€œExperimental Results on the Level Crossing Rate and Average Fade Duration for Urban Fixed Wireless Channels,â€ IEEE Transactions on Wireless Communications, vol. 6, no. 1, pp. 175â€“179, 2007, doi: 10.1109/TWC.2007.05074.
+[3] R. Feick, R. A. Valenzuela, and L. Ahumada, "Experimental Results on the Level Crossing Rate and Average Fade Duration for Urban Fixed Wireless Channels," IEEE Transactions on Wireless Communications, vol. 6, no. 1, pp. 175-179, 2007, doi: 10.1109/TWC.2007.05074.
 
-[10] R. A. Valenzuela, R. Feick, P. Alegre, M. RodrÃ­guez, L. Ahumada, and D. Chizhik, â€œLong Term Fade Margin for 90% Availability in Fixed Wireless Links With Diversity,â€ IEEE Wireless Communications Letters, vol. 9, no. 10, pp. 1648â€“1652, 2020, doi: 10.1109/LWC.2020.2999564.
+[4] R. A. Valenzuela, R. Feick, P. Alegre, M. Rodriguez, L. Ahumada, and D. Chizhik, "Long Term Fade Margin for 90% Availability in Fixed Wireless Links With Diversity," IEEE Wireless Communications Letters, vol. 9, no. 10, pp. 1648-1652, 2020, doi: 10.1109/LWC.2020.2999564.
 
-[5] V. Kolar, S. Razak, P. MÃ¤hÃ¶nen, and N. B. Abu-Ghazaleh, â€œLink Quality Analysis and Measurement in Wireless Mesh Networks,â€ Ad Hoc Networks, vol. 9, no. 8, pp. 1430â€“1447, 2011, doi: 10.1016/j.adhoc.2011.03.005.
+[5] V. Kolar, S. Razak, P. Mahonen, and N. B. Abu-Ghazaleh, "Link Quality Analysis and Measurement in Wireless Mesh Networks," Ad Hoc Networks, vol. 9, no. 8, pp. 1430-1447, 2011, doi: 10.1016/j.adhoc.2011.03.005.
 
-[6] J. Mao, Y. Zhao, and Y. Xia, â€œRevisiting Link Quality Metrics and Models for Multichannel Low-Power Lossy Networks,â€ Sensors, vol. 23, no. 3, p. 1303, 2023, doi: 10.3390/s23031303.
+[6] J. Mao, Y. Zhao, and Y. Xia, "Revisiting Link Quality Metrics and Models for Multichannel Low-Power Lossy Networks," Sensors, vol. 23, no. 3, p. 1303, 2023, doi: 10.3390/s23031303.
 
-[7] â€œAssessing Link Quality in IEEE 802.11 Wireless Networks: Which Is the Right Metric?â€ in Proc. IEEE 19th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2008, doi: 10.1109/PIMRC.2008.4699837.
+[7] "Assessing Link Quality in IEEE 802.11 Wireless Networks: Which Is the Right Metric?" in Proc. IEEE 19th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2008, doi: 10.1109/PIMRC.2008.4699837.
 
-[8] â€œRevisiting Link Quality Metrics for Wireless Sensor Networks,â€ in Proc. 2019 IEEE 5th International Conference on Computer and Communications (ICCC), 2019, doi: 10.1109/ICCC47050.2019.9064098.
+[8] "Revisiting Link Quality Metrics for Wireless Sensor Networks," in Proc. 2019 IEEE 5th International Conference on Computer and Communications (ICCC), 2019, doi: 10.1109/ICCC47050.2019.9064098.
 
-[9] â€œFaster or Slower: Convergence of Link Quality Metrics in Wireless Sensor Networks,â€ in Proc. 2020 IEEE 6th International Conference on Computer and Communications (ICCC), 2020, doi: 10.1109/ICCC51575.2020.9345076.
+[9] "Faster or Slower: Convergence of Link Quality Metrics in Wireless Sensor Networks," in Proc. 2020 IEEE 6th International Conference on Computer and Communications (ICCC), 2020, doi: 10.1109/ICCC51575.2020.9345076.
 
+[10] J. Dong and W.-J. Kim, "Experimental Analysis and Implementation of a Multiscale Wireless/Wired Networked Control System," International Journal of Control, Automation and Systems, vol. 12, pp. 102-110, 2014, doi: 10.1007/s12555-013-9156-2.
 
+[11] OpenAI, "ChatGPT," OpenAI, 2026. [Online]. Available: https://chatgpt.com/
 
-
-
-[10] J. Dong and W.-J. Kim, “Experimental Analysis and Implementation of a Multiscale Wireless/Wired Networked Control System,” International Journal of Control, Automation and Systems, vol. 12, pp. 102–110, 2014, doi: 10.1007/s12555-013-9156-2.
