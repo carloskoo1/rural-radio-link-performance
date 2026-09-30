@@ -290,9 +290,9 @@ Future work should alternate configurations within shorter controlled blocks, re
 
 The analysis artifacts are maintained in the public repository: https://github.com/carloskoo1/rural-radio-link-performance. The repository contains the scenario organization, processing scripts, statistical outputs, publication figures, evidence matrix, and reproducibility documentation. The publication extension is maintained in the article/beyond-rssi branch.
 
-## AI-Assisted Writing Disclosure
+## Acknowledgment
 
-The manuscript drafting process used an AI language model for language organization, synthesis, and editorial assistance. Quantitative results, experimental descriptions, statistical values, and repository evidence were derived from the project's versioned research artifacts and were not generated from model inference. The final authors are responsible for verification of all scientific content, citations, authorship, and submission materials.
+The manuscript drafting process used OpenAI ChatGPT for language organization, synthesis, and editorial assistance. Quantitative results, experimental descriptions, statistical values, and repository evidence were derived from the project's versioned research artifacts and were not generated from model inference. The final authors are responsible for verification of all scientific content, citations, authorship, and submission materials.
 
 ## References
 
@@ -313,6 +313,7 @@ The manuscript drafting process used an AI language model for language organizat
 [8] â€œRevisiting Link Quality Metrics for Wireless Sensor Networks,â€ in Proc. 2019 IEEE 5th International Conference on Computer and Communications (ICCC), 2019, doi: 10.1109/ICCC47050.2019.9064098.
 
 [9] â€œFaster or Slower: Convergence of Link Quality Metrics in Wireless Sensor Networks,â€ in Proc. 2020 IEEE 6th International Conference on Computer and Communications (ICCC), 2020, doi: 10.1109/ICCC51575.2020.9345076.
+
 
 
 
