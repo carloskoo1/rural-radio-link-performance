@@ -4,7 +4,7 @@
 
 **Affiliation:** Universidad Nacional de Cajamarca, Facultad de Ingenieria, Escuela Profesional de Ingenieria de Sistemas, Cajamarca, Peru.
 
-**Corresponding author:** Carlos J. Koo Labrin (e-mail: [TO BE VERIFIED]).
+**Corresponding author:** Carlos J. Koo LabrÃ­n (e-mail: ckoo@unc.edu.pe).
 
 ## Abstract
 
@@ -18,7 +18,7 @@ The findings indicate that long-distance wireless-link assessment benefits from 
 
 ## 1. Introduction
 
-Long-distance point-to-point wireless links are frequently monitored through a small set of radio indicators, among which received signal strength is one of the most accessible. RSSI is useful for diagnosing gross changes in received power and for verifying link conditions, but a single signal-strength statistic does not necessarily describe the complete operational state of a wireless link. Experimental studies have shown that wireless-link behavior depends on the interaction among signal quality, modulation and coding, traffic conditions, and temporal channel dynamics. For example, measurements of IEEE 802.11ad have evaluated RSSI together with MCS and TCP/UDP throughput rather than treating received signal strength as a complete performance descriptor. [1]
+Long-distance point-to-point wireless links are frequently monitored through a small set of radio indicators, among which received signal strength is one of the most accessible. RSSI is useful for diagnosing gross changes in received power and for verifying link conditions, but a single signal-strength statistic does not necessarily describe the complete operational state of a wireless link. Experimental studies have shown that wireless-link behavior depends on the interaction among signal quality, modulation and coding, traffic conditions, and temporal channel dynamics. For example, measurements of IEEE 802.11ad have evaluated RSSI together with MCS and TCP/UDP throughput rather than treating received signal strength as a complete performance descriptor. [1] [11]
 
 This distinction becomes relevant in fixed outdoor links because a configuration that produces a favorable received-power level may not produce the same behavior at the modulation/coding or throughput layers. The physical and link layers are coupled through adaptive modulation and coding, while the delivered throughput also depends on protocol and traffic behavior. Consequently, radio-link assessment benefits from observing multiple layers of telemetry rather than relying on a single radio-strength indicator.
 
@@ -45,7 +45,7 @@ The remainder of the paper is organized as follows. Section 2 reviews previous w
 
 ### 2.1 Signal indicators and wireless-link performance
 
-RSSI and related received-signal indicators are widely used because they provide a direct operational measure of received power. However, their relationship with actual data performance depends on the radio technology, interference environment, modulation/coding state, bandwidth, and traffic conditions. Experimental evaluation of IEEE 802.11ad, for example, has explicitly combined RSSI measurements with different MCS configurations and TCP/UDP throughput measurements, illustrating the need to connect signal conditions with delivered performance. [1]
+RSSI and related received-signal indicators are widely used because they provide a direct operational measure of received power. However, their relationship with actual data performance depends on the radio technology, interference environment, modulation/coding state, bandwidth, and traffic conditions. Experimental evaluation of IEEE 802.11ad, for example, has explicitly combined RSSI measurements with different MCS configurations and TCP/UDP throughput measurements, illustrating the need to connect signal conditions with delivered performance. [1] [11]
 
 The distinction between signal strength and data performance is also reflected in wireless-network modeling approaches in which RSSI is used as one input to estimate data-rate potential while MCS, channel bandwidth, coding, and spatial streams contribute to the resulting physical rate. [6] These studies support a multidimensional interpretation of radio-link performance, but they do not by themselves address the temporal stability framework used in the present field experiment.
 
@@ -87,7 +87,7 @@ This framing deliberately avoids claiming methodological priority for MTRA or no
 
 ### 3.1 Experimental design and testbed
 
-The study used a sequential field-experiment design for a long-distance point-to-point wireless link deployed in a rural high-Andean environment in Cajamarca, Peru. The experimental factor was the radio configuration, represented by the operating frequency and channel bandwidth. The route, radio equipment, antennas, alignment, and infrastructure were maintained constant to the extent operationally possible while the configuration was changed sequentially.
+The study used a sequential field-experiment design for a long-distance point-to-point wireless link deployed in a rural high-Andean environment in Cajamarca, Peru. The experimental factor was the radio configuration, represented by the operating frequency and channel bandwidth. The route, radio equipment, antennas, alignment, and infrastructure were maintained constant to the extent operationally possible while the configuration was changed sequentially. [11]
 
 Six operating scenarios were evaluated. E0 was the baseline configuration, while E1-E5 represented alternative frequency-bandwidth combinations. The repository identifies the scenarios as E0 (5800 MHz/20 MHz), E1 (5660 MHz/40 MHz), E2 (5660 MHz/80 MHz), E3 (5730 MHz/40 MHz), E4 (5730 MHz/80 MHz), and E5 (5805 MHz/40 MHz).
 
@@ -177,7 +177,7 @@ The sequential field design also means that the scenarios were observed during d
 
 ### 4.1 Configuration-dependent performance
 
-The descriptive results show measurable differences among the six radio configurations across RSSI DL, SNR DL, and MCS DL. The corresponding configuration profiles are summarized in Fig. 2.
+The descriptive results show measurable differences among the six radio configurations across RSSI DL, SNR DL, and MCS DL. The corresponding configuration profiles are summarized in Fig. 2. [11]
 
 ![Fig. 2. Configuration-dependent performance profiles.](../outputs/article_figures/Fig02_configuration_profiles.png) RSSI DL means ranged from -76.668 dBm in E1 to -74.396 dBm in E2, while SNR DL means ranged from 19.936 dB in E3 to 21.678 dB in E2. Mean MCS ranged from 103.300 in E2 to 104.995 in E0. Observed throughput was available for E1-E5 and ranged from 0.588 Mb/s in E2 to 0.791 Mb/s in E4.
 
@@ -228,7 +228,7 @@ Publication figures are Fig. 2 configuration-dependent performance profiles, Fig
 
 ### 5.1 Configuration dependence extends beyond RSSI
 
-The results show that changing the radio configuration was associated with differences not only in received signal level but also in SNR, MCS, and observed throughput. The Kruskal-Wallis results and epsilon-squared values indicate that the scenario distributions were not interchangeable within the experimental dataset.
+The results show that changing the radio configuration was associated with differences not only in received signal level but also in SNR, MCS, and observed throughput. The Kruskal-Wallis results and epsilon-squared values indicate that the scenario distributions were not interchangeable within the experimental dataset. [11]
 
 An important observation is that the metrics do not move as a single undifferentiated performance variable. E2 presented the highest mean RSSI (-74.396 dBm) and SNR (21.678 dB), but its mean MCS (103.300) and observed throughput (0.588 Mb/s) were not the highest among the scenarios with throughput measurements. Conversely, E4 presented the highest observed throughput mean (0.791 Mb/s) while its mean SNR was 20.616 dB and its mean MCS was 103.672. This divergence indicates that received signal strength alone does not provide a complete description of link performance in the evaluated configurations.
 
@@ -265,7 +265,7 @@ The repository implementation reinforces this methodological contribution becaus
 
 ## 6. Limitations
 
-Several limitations delimit the interpretation of the findings.
+Several limitations delimit the interpretation of the findings. [11]
 
 First, the experiment concerns one long-distance point-to-point link and therefore does not establish that the observed configuration patterns generalize to other links, terrains, antenna systems, radio platforms, or propagation conditions.
 
@@ -286,7 +286,7 @@ These extensions define the experimental steps needed to distinguish more strong
 
 ## 7. Conclusions
 
-This study evaluated a long-distance point-to-point wireless link using a multidimensional and multiscale experimental framework. Six frequency-bandwidth configurations were compared using RSSI, SNR, MCS, and observed throughput, complemented by temporal variability and multiscale sensitivity analysis.
+This study evaluated a long-distance point-to-point wireless link using a multidimensional and multiscale experimental framework. Six frequency-bandwidth configurations were compared using RSSI, SNR, MCS, and observed throughput, complemented by temporal variability and multiscale sensitivity analysis. [11]
 
 The results show statistically significant configuration-associated differences across the evaluated metrics. More importantly, signal strength alone does not provide a complete description of operational link performance: the configuration with the highest mean RSSI and SNR did not have the highest observed throughput. This supports the use of joint telemetry involving signal level, signal quality, link-adaptation state, and delivered performance.
 
@@ -305,7 +305,7 @@ The analysis artifacts are maintained in the public repository: https://github.c
 
 ## Acknowledgment
 
-OpenAI ChatGPT was used for language organization, synthesis, and editorial assistance during preparation of Sections 1–7 of this manuscript [11]. AI assistance was not used to generate the quantitative results, statistical values, experimental measurements, or repository evidence. Those elements were derived from the project’s versioned research artifacts. The authors verified the scientific content, citations, authorship, and submission materials.
+ChatGPT (OpenAI) was used during preparation of Sections 1â€“7 for language organization, synthesis, and editorial assistance. The affected sections contain a citation to the AI system [11]. AI assistance was not used to generate the quantitative results, statistical values, experimental measurements, or repository evidence. Those elements were derived from the projectâ€™s versioned research artifacts. The authors verified the scientific content, citations, authorship, and submission materials.
 
 ## References
 
@@ -319,14 +319,10 @@ OpenAI ChatGPT was used for language organization, synthesis, and editorial assi
 
 [5] V. Kolar, S. Razak, P. Mahonen, and N. B. Abu-Ghazaleh, "Link Quality Analysis and Measurement in Wireless Mesh Networks," Ad Hoc Networks, vol. 9, no. 8, pp. 1430-1447, 2011, doi: 10.1016/j.adhoc.2011.03.005.
 
-[6] J. Mao, Y. Zhao, and Y. Xia, "Revisiting Link Quality Metrics and Models for Multichannel Low-Power Lossy Networks," Sensors, vol. 23, no. 3, p. 1303, 2023, doi: 10.3390/s23031303.
-
-[7] "Assessing Link Quality in IEEE 802.11 Wireless Networks: Which Is the Right Metric?" in Proc. IEEE 19th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2008, doi: 10.1109/PIMRC.2008.4699837.
-
-[8] "Revisiting Link Quality Metrics for Wireless Sensor Networks," in Proc. 2019 IEEE 5th International Conference on Computer and Communications (ICCC), 2019, doi: 10.1109/ICCC47050.2019.9064098.
-
-[9] "Faster or Slower: Convergence of Link Quality Metrics in Wireless Sensor Networks," in Proc. 2020 IEEE 6th International Conference on Computer and Communications (ICCC), 2020, doi: 10.1109/ICCC51575.2020.9345076.
-
+[6] J. Mao, Y. Zhao, Y. Xia, Z. Yang, C. Xu, W. Liu, and D. Huang, "Revisiting Link Quality Metrics and Models for Multichannel Low-Power Lossy Networks," Sensors, vol. 23, no. 3, Art. no. 1303, 2023, doi: 10.3390/s23031303.
+[7] A. Vlavianos, L. K. Law, I. Broustis, S. V. Krishnamurthy, and M. Faloutsos, "Assessing Link Quality in IEEE 802.11 Wireless Networks: Which Is the Right Metric?" in Proc. IEEE 19th Int. Symp. Personal, Indoor and Mobile Radio Communications (PIMRC), 2008, pp. 1â€“6, doi: 10.1109/PIMRC.2008.4699837.
+[8] W. Liu, Y. Xia, J. Xu, S. Hu, and R. Luo, "Revisiting Link Quality Metrics for Wireless Sensor Networks," in Proc. 2019 IEEE 5th Int. Conf. Computer and Communications (ICCC), 2019, pp. 597â€“602, doi: 10.1109/ICCC47050.2019.9064098.
+[9] J. Xu, Y. Xia, J. Xie, W. Liu, R. Luo, S. Hu, and D. Huang, "Faster or Slower: Convergence of Link Quality Metrics in Wireless Sensor Networks," in Proc. 2020 IEEE 6th Int. Conf. Computer and Communications (ICCC), 2020, pp. 357â€“362, doi: 10.1109/ICCC51575.2020.9345076.
 [10] J. Dong and W.-J. Kim, "Experimental Analysis and Implementation of a Multiscale Wireless/Wired Networked Control System," International Journal of Control, Automation and Systems, vol. 12, pp. 102-110, 2014, doi: 10.1007/s12555-013-9156-2.
 
 [11] OpenAI, "ChatGPT," OpenAI, 2026. [Online]. Available: https://chatgpt.com/
