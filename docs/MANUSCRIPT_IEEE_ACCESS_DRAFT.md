@@ -1,6 +1,6 @@
 ﻿# Beyond RSSI: Configuration-Dependent Performance and Temporal Stability in a Long-Distance Point-to-Point Wireless Link
 
-**Authors:** Eber Elí Burga Campos; Carlos Jesús Koo Labrín
+**Authors:** Carlos J. Koo Labrín; Néstor E. Muñoz Abanto; Víctor Sánchez Cáceres; Marisol Tapia Romero; José Camilo Micha Ortiz; Rosel Burga Cabrera
 
 **Affiliation:** Universidad Nacional de Cajamarca, Facultad de Ingeniería, Escuela Profesional de Ingeniería de Sistemas, Cajamarca, Peru.
 
@@ -319,4 +319,5 @@ OpenAI ChatGPT was used for language organization, synthesis, and editorial assi
 [10] J. Dong and W.-J. Kim, "Experimental Analysis and Implementation of a Multiscale Wireless/Wired Networked Control System," International Journal of Control, Automation and Systems, vol. 12, pp. 102-110, 2014, doi: 10.1007/s12555-013-9156-2.
 
 [11] OpenAI, "ChatGPT," OpenAI, 2026. [Online]. Available: https://chatgpt.com/
+
 
