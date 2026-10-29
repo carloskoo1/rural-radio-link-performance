@@ -15,6 +15,6 @@ The following author names, order, emails and affiliation were supplied by the c
 
 **Corresponding author:** Carlos J. Koo Labrín, ckoo@unc.edu.pe, ORCID [0000-0002-0323-2961](https://orcid.org/0000-0002-0323-2961).
 
-The corresponding author confirms all coauthors consent to the research publication, and reports ownership/custody of the radio links and their measurement data. **Individual CRediT contributions are not assigned by inference from seniority or laboratory membership**; verify them before submission. The roles of experimental collaborator and acknowledgment for Luisita Adalid Mendo Urbina also require an explicit final authorship-criteria assessment. See `CONTRIBUTIONS_CREDIT_PENDING.md` and `AUTHOR_BIOGRAPHIES.md`.
+The corresponding author confirms all coauthors consent to the research publication, and reports ownership/custody of the radio links and their measurement data. **Individual CRediT contributions are not assigned by inference from seniority or laboratory membership**; verify them before submission. The corresponding author confirms that Luisita Adalid Mendo Urbina did not participate in the scientific research or preparation of this article; she is neither an author nor an acknowledged contributor. The separate 3×2 dataset continues to be identified through its frozen schedule and source checksums. See `CONTRIBUTIONS_CREDIT_PENDING.md` and `AUTHOR_BIOGRAPHIES.md`.
 
 No portrait images were supplied for this archive.
