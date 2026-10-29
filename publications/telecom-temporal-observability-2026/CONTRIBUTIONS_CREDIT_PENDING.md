@@ -6,6 +6,6 @@ Confirm, for each author, the applicable CRediT 14 roles: Conceptualization; Dat
 
 Record written confirmation and preserve it in a **private** authorship audit (not necessarily on public GitHub). Before MDPI submission:
 - Obtain the actual individual role matrix; avoid unverified blanket roles.
-- Check whether the original 3×2 thesis campaign contributions of Luisita Adalid Mendo Urbina meet journal authorship criteria. If not, retain an accurate, authorized acknowledgment.
+- The corresponding author confirms that Luisita Adalid Mendo Urbina did not participate in this article; do not attribute article authorship, acknowledgment, or CRediT roles to her. Maintain independent source-data provenance through fixed campaign records.
 - Ensure every listed author has reviewed/approved the manuscript and accepts accountability for their contributions.
 - Align the journal metadata, author emails, laboratory affiliation, CRediT statement, acknowledgment and the final manuscript.
