@@ -1,7 +1,7 @@
 # Temporal Observability of Wireless Backhaul — research reproducibility archive
 
 **Manuscript:** *Temporal Observability of Wireless Backhaul: Evidence from Two High-Andean RF and TCP Field Campaigns*.
-**Target journal:** Telecom (MDPI). **Archive status:** 2026-10-28 pre-submission reproducibility package; no journal acceptance, publication or DOI is implied. **Release:** v1.0.0-rc1.
+**Target journal:** Telecom (MDPI). **Archive status:** 2026-10-28 pre-submission reproducibility package; no journal acceptance, publication or DOI is implied. **Original frozen release:** v1.0.0-rc1. **Editorial correction (28 October 2026):** funding and research-participation attribution were corrected on `main`; the original release remains historically frozen. Cite the corrected commit for updated metadata.
 
 This archive documents two observational data collections on **one high-Andean point-to-point link** between Cuñacales and San José, Cajamarca, Peru. The historical E1–E5 telemetry periods and later repeated 3×2 RF/TCP campaign were acquired in different periods and instrumentation contexts. They are **not independent spatial replicas**; their descriptive percentages are not estimates of a causal acquisition effect.
 
@@ -46,4 +46,4 @@ Run `python code/reproduce_v5.py --help`; see `REPRODUCE.md` for a command using
 
 ## Authors
 
-Carlos J. Koo Labrín (corresponding author); Néstor E. Muñoz Abanto; Víctor Sánchez Cáceres; Marisol Tapia Romero; José Camilo Micha Ortiz; Rosel Burga Cabrera. All are faculty of Universidad Nacional de Cajamarca and participants in the Advanced Telecommunications Laboratory. Their institutional contacts are documented in `AUTHORS.md`. Luisita Adalid Mendo Urbina is acknowledged for the original 3×2 thesis field campaign and stewardship; individual authorship criteria and CRediT assignment remain subject to review.
+Carlos J. Koo Labrín (corresponding author); Néstor E. Muñoz Abanto; Víctor Sánchez Cáceres; Marisol Tapia Romero; José Camilo Micha Ortiz; Rosel Burga Cabrera. All are faculty of Universidad Nacional de Cajamarca and participants in the Advanced Telecommunications Laboratory. Their institutional contacts are documented in `AUTHORS.md`. The corresponding author confirms that Luisita Adalid Mendo Urbina did not participate in this article; she is neither listed as an author nor acknowledged. The 3×2 dataset remains traceable through source identifiers. Individual CRediT roles of the six listed authors remain pending.
