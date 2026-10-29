@@ -1,0 +1,245 @@
+{
+  "generated_utc": "2026-10-28T22:32:57.426433+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "source": {
+    "snapshot_sha256": "2fdc7134b6a2b09da3c6370e36cd972a1759ed498eea1a2b04962186d41cccb7",
+    "schedule_sha256": "ba6cb4053afbe6241642e63cf26ed33e0d93ee768784aa88e493449205549780",
+    "historical_sha256": "ba575ced2bd2d626647e22c1da234e6f78fb9d073879120c24e10bfbe50cc39f"
+  },
+  "quick_check": "ok",
+  "read_only": true,
+  "immutable": true,
+  "historical": {
+    "source_rows_all": 26107,
+    "E4_leave_day_out_P_pct": [
+      99.51897381079637,
+      99.73375931842385
+    ],
+    "E4_leave_day_out_H_pct": [
+      99.23339011925043,
+      99.58813838550248
+    ]
+  },
+  "historical_main": [
+    {
+      "source_rows": 2760,
+      "valid_joint_rf": 2728,
+      "distinct_joint_rf_states": 23,
+      "eligible_adjacent_pairs": 2709,
+      "unchanged_adjacent_pairs": 1514,
+      "unchanged_adjacent_pct": 55.887781469176815,
+      "rf_state_transitions": 1195,
+      "mcs_comparable_pairs": 2709,
+      "mcs_comparable_static_pairs": 1514,
+      "mcs_change_pairs": 1660,
+      "mcs_changes_during_constant_rf": 950,
+      "H_pct": 57.2289156626506,
+      "D_pct": 62.74768824306473,
+      "exact_within_day_permutation_reference_pct": 35.233494643402636,
+      "longest_censored_run_n": 38,
+      "longest_censored_run_hours": 3.095833333333333,
+      "traffic_comparable": 1506,
+      "traffic_delta_ge_0p10": 672,
+      "ul_rssi_comparable": 1499,
+      "ul_rssi_delta_ge_1": 771,
+      "first": "2026-04-02 00:17:48-05:00",
+      "last": "2026-04-11 23:59:06-05:00",
+      "days": 10,
+      "scenario": "E1"
+    },
+    {
+      "source_rows": 2245,
+      "valid_joint_rf": 2230,
+      "distinct_joint_rf_states": 12,
+      "eligible_adjacent_pairs": 2215,
+      "unchanged_adjacent_pairs": 2031,
+      "unchanged_adjacent_pct": 91.69300225733635,
+      "rf_state_transitions": 184,
+      "mcs_comparable_pairs": 2215,
+      "mcs_comparable_static_pairs": 2031,
+      "mcs_change_pairs": 1573,
+      "mcs_changes_during_constant_rf": 1430,
+      "H_pct": 90.9090909090909,
+      "D_pct": 70.40866568193009,
+      "exact_within_day_permutation_reference_pct": 43.607484960993894,
+      "longest_censored_run_n": 132,
+      "longest_censored_run_hours": 10.955555555555556,
+      "traffic_comparable": 2031,
+      "traffic_delta_ge_0p10": 903,
+      "ul_rssi_comparable": 2017,
+      "ul_rssi_delta_ge_1": 1571,
+      "first": "2026-04-12 00:49:18-05:00",
+      "last": "2026-04-21 23:20:43-05:00",
+      "days": 9,
+      "scenario": "E2"
+    },
+    {
+      "source_rows": 2381,
+      "valid_joint_rf": 2332,
+      "distinct_joint_rf_states": 9,
+      "eligible_adjacent_pairs": 2296,
+      "unchanged_adjacent_pairs": 2263,
+      "unchanged_adjacent_pct": 98.56271777003484,
+      "rf_state_transitions": 33,
+      "mcs_comparable_pairs": 2296,
+      "mcs_comparable_static_pairs": 2263,
+      "mcs_change_pairs": 1200,
+      "mcs_changes_during_constant_rf": 1186,
+      "H_pct": 98.83333333333333,
+      "D_pct": 52.40830755634114,
+      "exact_within_day_permutation_reference_pct": 60.880593276717924,
+      "longest_censored_run_n": 167,
+      "longest_censored_run_hours": 13.883055555555556,
+      "traffic_comparable": 2242,
+      "traffic_delta_ge_0p10": 1015,
+      "ul_rssi_comparable": 2233,
+      "ul_rssi_delta_ge_1": 1529,
+      "first": "2026-05-03 00:03:30-05:00",
+      "last": "2026-05-12 23:56:17-05:00",
+      "days": 10,
+      "scenario": "E3"
+    },
+    {
+      "source_rows": 2184,
+      "valid_joint_rf": 2170,
+      "distinct_joint_rf_states": 4,
+      "eligible_adjacent_pairs": 2155,
+      "unchanged_adjacent_pairs": 2146,
+      "unchanged_adjacent_pct": 99.58236658932715,
+      "rf_state_transitions": 9,
+      "mcs_comparable_pairs": 2155,
+      "mcs_comparable_static_pairs": 2146,
+      "mcs_change_pairs": 1361,
+      "mcs_changes_during_constant_rf": 1352,
+      "H_pct": 99.33872152828802,
+      "D_pct": 63.00093196644921,
+      "exact_within_day_permutation_reference_pct": 76.44886101823245,
+      "longest_censored_run_n": 213,
+      "longest_censored_run_hours": 17.661666666666665,
+      "traffic_comparable": 2138,
+      "traffic_delta_ge_0p10": 1069,
+      "ul_rssi_comparable": 2130,
+      "ul_rssi_delta_ge_1": 1418,
+      "first": "2026-05-13 00:41:28-05:00",
+      "last": "2026-05-22 23:57:33-05:00",
+      "days": 9,
+      "scenario": "E4"
+    },
+    {
+      "source_rows": 2137,
+      "valid_joint_rf": 2084,
+      "distinct_joint_rf_states": 17,
+      "eligible_adjacent_pairs": 2064,
+      "unchanged_adjacent_pairs": 1301,
+      "unchanged_adjacent_pct": 63.03294573643411,
+      "rf_state_transitions": 763,
+      "mcs_comparable_pairs": 2064,
+      "mcs_comparable_static_pairs": 1301,
+      "mcs_change_pairs": 961,
+      "mcs_changes_during_constant_rf": 606,
+      "H_pct": 63.05931321540062,
+      "D_pct": 46.57955418908532,
+      "exact_within_day_permutation_reference_pct": 18.068281723334728,
+      "longest_censored_run_n": 25,
+      "longest_censored_run_hours": 2.007222222222222,
+      "traffic_comparable": 1296,
+      "traffic_delta_ge_0p10": 613,
+      "ul_rssi_comparable": 1288,
+      "ul_rssi_delta_ge_1": 769,
+      "first": "2026-05-23 00:02:35-05:00",
+      "last": "2026-06-01 18:49:10-05:00",
+      "days": 8,
+      "scenario": "E5"
+    }
+  ],
+  "campaign_totals": {
+    "rf_rows": 11412,
+    "rf_pairs": 11367,
+    "rf_static_pairs": 4769,
+    "mcs_transitions": 2748,
+    "mcs_unaccompanied": 1038,
+    "tcp_dl_count": 3419,
+    "tcp_ul_count": 3415
+  },
+  "campaign_raw_rf_rows": 11813,
+  "campaign_raw_tcp_attempts": 7143,
+  "tcp_sequential_exclusions": {
+    "campaign_id": 186,
+    "unsuccessful_status": 73,
+    "tcp_configuration": 48,
+    "rf_delta_gt_300s_or_missing": 2
+  },
+  "tcp_campaign_status_protocol": [
+    {
+      "campaign_id": "ANDEAN_6GHZ_3X2_2026",
+      "status": "OK",
+      "protocol": "TCP",
+      "n": 186
+    },
+    {
+      "campaign_id": "CAMPAIGN_6G_20260831",
+      "status": "OK",
+      "protocol": "TCP",
+      "n": 6884
+    },
+    {
+      "campaign_id": "CAMPAIGN_6G_20260831",
+      "status": "ERROR",
+      "protocol": "TCP",
+      "n": 73
+    }
+  ],
+  "clock_rf": {
+    "rows": 11813,
+    "local_offsets": {
+      "-1 day, 19:00:00": 11813
+    },
+    "max_utc_local_difference_s": 1.0,
+    "difference_gt_1s": 0
+  },
+  "clock_tcp": {
+    "rows": 7143,
+    "local_offsets": {
+      "-1 day, 19:00:00": 7143
+    },
+    "max_utc_local_difference_s": 0.0,
+    "difference_gt_1s": 0
+  },
+  "join_clock": {
+    "linked_rf_rows": 7122,
+    "missing_linked_rf": 21,
+    "rf_timestamp_copy_mismatches": 0,
+    "max_recorded_vs_recomputed_difference_s": 0,
+    "recorded_vs_recomputed_difference_distribution": {
+      "0.0": 7122
+    },
+    "eligible_max_recomputed_gap_s": 296.0,
+    "eligible_median_gap_s": 144.0
+  },
+  "raw_payload_audit": {
+    "field_mapping": {
+      "dl_mcs": "connectedSTADLMCS",
+      "ul_mcs": "connectedSTAULMCS",
+      "dl_rssi_dbm": "connectedSTADLRSSI",
+      "dl_snr_db": "connectedSTADLSNR"
+    },
+    "matches": {
+      "dl_mcs": 11412,
+      "ul_mcs": 11412,
+      "dl_rssi_dbm": 11412,
+      "dl_snr_db": 11412
+    },
+    "missing": {},
+    "mismatches": {},
+    "sm_firmware": {
+      "5.4.0": 11412
+    },
+    "ap_firmware": {
+      "5.4": 11412
+    }
+  },
+  "sql_python_crosscheck": "all segment event counts and TCP counts match",
+  "historical_git_blob": "5617f651af6fdc980c85efe71d040d9eafa4c152",
+  "prospective_included": false,
+  "source_db_sha256_after": "2fdc7134b6a2b09da3c6370e36cd972a1759ed498eea1a2b04962186d41cccb7"
+}

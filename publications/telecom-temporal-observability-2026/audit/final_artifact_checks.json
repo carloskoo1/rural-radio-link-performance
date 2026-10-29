@@ -1,0 +1,9 @@
+{
+  "summary_comparisons": 34,
+  "max_absolute_difference_mbps": 7.714329122165964e-05,
+  "hourly_rows": 1736,
+  "hourly_test_total": 6834,
+  "tables": 4,
+  "figures": 4,
+  "tracked_changes_or_comments": false
+}
