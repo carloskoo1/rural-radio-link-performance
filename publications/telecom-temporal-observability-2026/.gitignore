@@ -1,0 +1,20 @@
+# Do not accidentally publish private telemetry or live collector exports
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.bak
+*.backup
+*credentials*
+*token*
+*.pcap
+*.pcapng
+__pycache__/
+*.pyc
+.DS_Store

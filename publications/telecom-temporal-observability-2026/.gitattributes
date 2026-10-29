@@ -1,0 +1,2 @@
+# Preserve exact released bytes, including CRLF in source CSV artifacts.
+* -text
