@@ -1,7 +1,7 @@
 # Temporal Observability of Wireless Backhaul — research reproducibility archive
 
 **Manuscript:** *Temporal Observability of Wireless Backhaul: Evidence from Two High-Andean RF and TCP Field Campaigns*.
-**Target journal:** Telecom (MDPI). **Archive status:** 2026-10-28 pre-submission reproducibility package; no journal acceptance, publication or DOI is implied. **Original frozen release:** v1.0.0-rc1. **Editorial correction (28 October 2026):** funding and research-participation attribution were corrected on `main`; the original release remains historically frozen. Cite the corrected commit for updated metadata.
+**Target journal:** Telecom (MDPI). **Archive status:** 2026-10-28 pre-submission research-software package; no journal acceptance or article publication is claimed. The independent **reproducibility archive** is published in Zenodo with DOI [10.5281/zenodo.23750458](https://doi.org/10.5281/zenodo.23750458). **Original frozen release:** v1.0.0-rc1. **Editorial correction (28 October 2026):** funding and research-participation attribution were corrected on `main`; the original release remains historically frozen. Cite the corrected commit for updated metadata.
 
 This archive documents two observational data collections on **one high-Andean point-to-point link** between Cuñacales and San José, Cajamarca, Peru. The historical E1–E5 telemetry periods and later repeated 3×2 RF/TCP campaign were acquired in different periods and instrumentation contexts. They are **not independent spatial replicas**; their descriptive percentages are not estimates of a causal acquisition effect.
 
@@ -31,6 +31,10 @@ This archive documents two observational data collections on **one high-Andean p
 | `CONTRIBUTIONS_CREDIT_PENDING.md` | CRediT roles intentionally pending individual author confirmation |
 | `FUNDING_AND_DISCLOSURES.md` | Research ownership, financing and disclosure status |
 | `SHA256SUMS.txt` and `release_manifest.json` | Immutable artifact checksums and source manifest |
+
+## Zenodo archival DOI
+
+The curated public 33-file scientific directory, together with a source-commit note, was deposited as a single ZIP in Zenodo as **Software**, version **1.0.1**, on 28 October 2026 (Peru local date). The Zenodo DOI is **[10.5281/zenodo.23750458](https://doi.org/10.5281/zenodo.23750458)**. The Zenodo record is **not** a peer-reviewed article and **not** a deposit of the private SQLite source. Archived ZIP SHA-256: `f300fdff6be9281e3e0df5f71620c0d4d3e0e6558fcf94a32e5ac41d17db414b`; uploaded checksum: `md5:03558362b22af5b3a172fde77e98aff8`. Fixed source: commit `dc35619cfa427f2c87d78deb0d2e9d0d481a514a`. The published archive retains its original content even if metadata in this GitHub folder is subsequently improved. See `ZENODO_DOI.md`.
 
 ## Provenance
 
