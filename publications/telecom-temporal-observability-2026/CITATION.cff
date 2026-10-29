@@ -1,10 +1,12 @@
 cff-version: 1.2.0
-message: "Cite this reproducibility archive with the fixed Git commit SHA; cite the peer-reviewed article if and when published."
+message: "Cite the Zenodo reproducibility DOI; cite the journal article separately if and when accepted and published."
 title: "Temporal Observability of Wireless Backhaul: Reproducibility Materials"
 type: software
-version: "1.0.0-rc1"
+version: "1.0.1"
 date-released: 2026-10-28
-repository-code: "https://github.com/carloskoo1/rural-radio-link-performance/tree/main/publications/telecom-temporal-observability-2026"
+doi: 10.5281/zenodo.23750458
+url: https://zenodo.org/records/23750458
+repository-code: "https://github.com/carloskoo1/rural-radio-link-performance/tree/dc35619cfa427f2c87d78deb0d2e9d0d481a514a/publications/telecom-temporal-observability-2026"
 abstract: "Read-only Python and SQL analysis, reproducibility audits, summary tables, frozen schedule and figures for two temporally distinct observational campaigns on one high-Andean point-to-point radio link."
 authors:
   - family-names: "Koo Labrín"
