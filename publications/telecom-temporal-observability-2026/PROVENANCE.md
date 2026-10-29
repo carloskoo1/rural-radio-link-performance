@@ -24,6 +24,8 @@
 - All 11,412 eligible AP payloads matched source field labels for nominal DL/UL MCS and DL RSSI/SNR. Firmwares reported AP 5.4 and SM 5.4.0 in these records. Codes are nominal; do not compare them as modulation scalars to historical hardware.
 - Archived independent Python and SQL count reconciliations, SQLite immutable read-only `quick_check`, and source-hash checks are represented in `audit/`. The audit artifacts are records of prior execution, not a claim that this GitHub upload reran inaccessible raw data.
 
+**Article participation boundary:** The six named UNC authors are the research team of the present article. The corresponding author confirms that Luisita Adalid Mendo Urbina did not participate in the current manuscript/research. This correction does not modify the acquired 3×2 dataset or resolve historical participation in other research; those records remain independent.
+
 ## C. Comparability and inferential limits
 
 Single physical route, sequential interventions, dissimilar instrumentation periods, repeated nested measurements, incomplete coverage and no independently adjudicated failure outcomes. The descriptive 7000/20 MHz deterioration is concordant in reported RF and TCP but is not a missed-alarm case. Do not infer causal effects of weather, frequency, firmware, or acquisition regime; no diagnostics sensitivity/specificity is estimated. TCP results are application-layer tests constrained in part by a reported 100 Mb/s Ethernet link and must not be labeled PHY capacity.
