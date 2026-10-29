@@ -1,5 +1,13 @@
 # Scientific release log
 
+## 2026-10-28 — Zenodo DOI registered for software reproducibility archive
+
+- Zenodo public record: https://zenodo.org/records/23750458; DOI: `10.5281/zenodo.23750458`; resource type Software; version 1.0.1; six UNC creators.
+- Archived one curated ZIP of 33 public scientific GitHub files plus an explicit source-commit note, SHA-256 `f300fdff6be9281e3e0df5f71620c0d4d3e0e6558fcf94a32e5ac41d17db414b`.
+- Fixed original source GitHub SHA: `dc35619cfa427f2c87d78deb0d2e9d0d481a514a`; the private SQLite archive remains restricted.
+- This is a research-software DOI, not the journal article DOI. Corrected public metadata and GitHub bibliographic cross-link after publication; do not change archived ZIP in place.
+
+
 ## 2026-10-28 — Post-rc1 editorial correction
 
 - Correct funding: UNC supplied antenna equipment in kind; the corresponding author personally financed remaining infrastructure and experimental costs. No external competitive grant reported.
