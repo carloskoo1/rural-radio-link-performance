@@ -1,11 +1,9 @@
-# CRediT contribution verification — outstanding editorial requirement
+# CRediT author contributions — resolved
 
-**Status: pending individual author confirmation (28 October 2026).** The corresponding author reports that all six coauthors approved the publication and author order. Do not equate that approval, professorial rank or lab membership with contribution in any specific CRediT category.
+**Status: confirmed by the corresponding author on 28 October 2026.**
 
-Confirm, for each author, the applicable CRediT 14 roles: Conceptualization; Data curation; Formal analysis; Funding acquisition; Investigation; Methodology; Project administration; Resources; Software; Supervision; Validation; Visualization; Writing – original draft; Writing – review & editing.
+The previously pending allocation has been superseded by [`AUTHOR_CONTRIBUTIONS_CREDIT.md`](AUTHOR_CONTRIBUTIONS_CREDIT.md). It covers all six listed UNC authors, including statistical analysis (Víctor Sánchez Cáceres), software/scripts (Néstor E. Muñoz Abanto and José Camilo Micha Ortiz), methodology (Marisol Tapia Romero), and telecommunications radio-link configuration and data acquisition (Rosel Burga Cabrera). Carlos J. Koo Labrín leads conceptualization, supervision, project administration and preparation of the original manuscript.
 
-Record written confirmation and preserve it in a **private** authorship audit (not necessarily on public GitHub). Before MDPI submission:
-- Obtain the actual individual role matrix; avoid unverified blanket roles.
-- The corresponding author confirms that Luisita Adalid Mendo Urbina did not participate in this article; do not attribute article authorship, acknowledgment, or CRediT roles to her. Maintain independent source-data provenance through fixed campaign records.
-- Ensure every listed author has reviewed/approved the manuscript and accepts accountability for their contributions.
-- Align the journal metadata, author emails, laboratory affiliation, CRediT statement, acknowledgment and the final manuscript.
+No participation, authorship, or acknowledgment is attributed in this article to Luisita Adalid Mendo Urbina. Source-data provenance remains independently documented.
+
+Individual acceptance of journal authorship accountability must remain recorded as part of the editorial submission workflow. No new data or analyses were introduced with this metadata update.

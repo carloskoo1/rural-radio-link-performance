@@ -1,5 +1,13 @@
 # Scientific release log
 
+## 2026-10-28 — Confirmed six-author CRediT declaration (V9 manuscript)
+
+- Recorded the corresponding author's explicit confirmation of all six authors' individual roles.
+- Documented statistical analysis by Víctor Sánchez Cáceres; software/scripts by Néstor E. Muñoz Abanto and José Camilo Micha Ortiz; methodology by Marisol Tapia Romero; telecommunications radio-link configuration and data acquisition by Rosel Burga Cabrera; and scientific direction and original drafting by Carlos J. Koo Labrín.
+- Added `AUTHOR_CONTRIBUTIONS_CREDIT.md`, superseded the old pending-role notice, and aligned README and AUTHORS.
+- This is a post-Zenodo-deposit editorial metadata change only. Published Zenodo DOI 10.5281/zenodo.23750458 and frozen scientific materials remain unchanged.
+
+
 ## 2026-10-28 — Zenodo DOI registered for software reproducibility archive
 
 - Zenodo public record: https://zenodo.org/records/23750458; DOI: `10.5281/zenodo.23750458`; resource type Software; version 1.0.1; six UNC creators.
