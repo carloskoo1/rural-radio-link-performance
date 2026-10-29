@@ -1,5 +1,13 @@
 # Scientific release log
 
+## 2026-10-28 — Post-rc1 editorial correction
+
+- Correct funding: UNC supplied antenna equipment in kind; the corresponding author personally financed remaining infrastructure and experimental costs. No external competitive grant reported.
+- Remove incorrectly attributed participation/acknowledgment of Luisita Adalid Mendo Urbina in this article; source-data provenance remains independently documented.
+- No changes to measurement data, schedules, source hash, code, figures or tables.
+- Original v1.0.0-rc1 tag and its immutable SHA256 manifest remain unchanged. Later metadata updates are identified by Git commit history.
+
+
 ## 2026-10-28 — v1.0.0-rc1 (pre-submission; independent Git revision)
 
 - Established isolated MDPI Telecom reproducibility path without rewriting the thesis pipeline, earlier historical commit or related research.
